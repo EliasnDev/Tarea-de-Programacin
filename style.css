@@ -1,0 +1,74 @@
+body{
+    margin: 0px;
+}
+.caja{
+    background-color: rgb(17, 17, 17);
+    display: flex;
+    width: 10000px;
+    height: 840px;
+    margin: 0px;
+    
+}
+
+.contenedor{
+    background-color: rgb(46, 46, 46);
+    width: 400px;
+    height: 700px;
+    border-radius: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 40px;
+    
+}
+.foto{
+    background-color: aliceblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 200px;
+    
+}
+#nombre{
+    font-size: 30px;
+    color: beige;
+    margin: 0px;
+}
+.boton{
+    background-color: rgb(80, 80, 80);
+    width: 360px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: 30px;
+}
+#pais{
+    color: rgb(145, 255, 0);
+    font-size: 30px;
+}
+#puesto{
+    color: rgba(161, 161, 161, 0.993);
+    font-size: 25px;
+}
+  
+.boton:hover{
+    background-color: rgb(157, 255, 0);
+    color: black;
+
+}
+.contenedor:hover{
+    background-color: rgb(56, 56, 56);
+    width: 410px;
+    height: 700px;
+    border-radius: 50px;
+
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 200px;
+}
